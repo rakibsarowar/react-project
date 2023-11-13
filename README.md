@@ -2,7 +2,9 @@
 
 Learned how to create App and mount by vue js
 
-create App: 
+```js
+
+//create App: 
 const app = Vue.createApp({
     data() {
         return {
@@ -14,7 +16,20 @@ const app = Vue.createApp({
     }
 })
 
-mounted: 
+```
+
+```html
+
+{*mounted:*}
+
 <script>
     const mountedApp = app.mount('#app')
 </script>
+
+
+```
+
+
+
+
+
