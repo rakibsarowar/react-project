@@ -20,7 +20,7 @@ const app = Vue.createApp({
 
 ```html
 
-{*mounted:*}
+{* mounted: *}
 
 <script>
     const mountedApp = app.mount('#app')
